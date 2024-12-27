@@ -1,0 +1,37 @@
+#board {
+    padding-top: 3rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+    clear: both;
+}
+
+/* all 9 cells */
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
